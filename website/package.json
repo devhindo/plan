@@ -1,0 +1,31 @@
+{
+  "name": "plan",
+  "version": "0.0.1",
+  "description": "plan is a programming language to schedule daily tasks and write routines",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhindo/plan"
+  },
+  "author": "devhindo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devhindo/plan/issues"
+  },
+  "homepage": "https://github.com/devhindo/plan",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
