@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 )
 
-func RUN(file string) {
+func INIT(file string) {
 	dir, err := os.Getwd()
 	if err != nil {
 		fmt.Println("Error getting current directory:", err)
@@ -14,5 +14,5 @@ func RUN(file string) {
 	}
 
 	fullpath := filepath.Join(dir, file)
-	fmt.Println(fullpath)
+	exec(fullpath)
 }

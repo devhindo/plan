@@ -1,8 +1,9 @@
 package core
 
 import (
-    "os"
-    "log"
+	"fmt"
+	"log"
+	"os"
 )
 
 func ReadFileContent(filePath string) ([]byte, error) {
@@ -11,5 +12,6 @@ func ReadFileContent(filePath string) ([]byte, error) {
         log.Fatal(err)
         return nil, err
     }
+    fmt.Println(string(content))
     return content, nil
 }

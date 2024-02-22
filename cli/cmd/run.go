@@ -22,7 +22,7 @@ var runCmd = &cobra.Command{
 }
 
 func run(cmd *cobra.Command, args []string) {
-	core.RUN(args[0])
+	core.INIT(args[0])
 }
 
 func init() {
